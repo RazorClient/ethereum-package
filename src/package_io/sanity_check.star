@@ -222,6 +222,8 @@ SUBCATEGORY_PARAMS = {
         "gloas_fork_epoch",
         "eip7805_fork_epoch",
         "eip7441_fork_epoch",
+        "eip7807_fork_epoch",
+        "eip7745_fork_epoch",
         "network_sync_base_url",
         "force_snapshot_sync",
         "shadowfork_block_height",

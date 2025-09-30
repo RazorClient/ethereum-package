@@ -679,6 +679,13 @@ network_params:
   # Defaults to 18446744073709551615
   eip7805_fork_epoch: 18446744073709551615
 
+  # EIP-7807 fork epoch
+  # Defaults to 18446744073709551615
+  eip7807_fork_epoch: 18446744073709551615
+
+  # EIP-7745 fork epoch
+  # Defaults to 18446744073709551615
+  eip7745_fork_epoch: 18446744073709551615
 
   # Preset for the network
   # Default: "mainnet"
@@ -1151,7 +1158,7 @@ spamoor_params:
 # Ethereum genesis generator params
 ethereum_genesis_generator_params:
   # The image to use for ethereum genesis generator
-  image: ethpandaops/ethereum-genesis-generator:5.0.6
+  image: ethpandaops/ethereum-genesis-generator:pureth
 
 # Configuration for public ports and NAT exit IP addresses
 port_publisher:

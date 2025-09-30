@@ -434,6 +434,8 @@ def input_parser(plan, input_args):
             gloas_fork_epoch=result["network_params"]["gloas_fork_epoch"],
             eip7805_fork_epoch=result["network_params"]["eip7805_fork_epoch"],
             eip7441_fork_epoch=result["network_params"]["eip7441_fork_epoch"],
+            eip7807_fork_epoch=result["network_params"]["eip7807_fork_epoch"],
+            eip7745_fork_epoch=result["network_params"]["eip7745_fork_epoch"],
             network=result["network_params"]["network"],
             min_validator_withdrawability_delay=result["network_params"][
                 "min_validator_withdrawability_delay"
@@ -1172,6 +1174,8 @@ def default_network_params():
         "gloas_fork_epoch": constants.FAR_FUTURE_EPOCH,
         "eip7805_fork_epoch": constants.FAR_FUTURE_EPOCH,
         "eip7441_fork_epoch": constants.FAR_FUTURE_EPOCH,
+        "eip7807_fork_epoch": constants.FAR_FUTURE_EPOCH,
+        "eip7745_fork_epoch": constants.FAR_FUTURE_EPOCH,
         "network_sync_base_url": "https://snapshots.ethpandaops.io/",
         "force_snapshot_sync": False,
         "shadowfork_block_height": "latest",
@@ -1252,6 +1256,8 @@ def default_minimal_network_params():
         "gloas_fork_epoch": constants.FAR_FUTURE_EPOCH,
         "eip7805_fork_epoch": constants.FAR_FUTURE_EPOCH,
         "eip7441_fork_epoch": constants.FAR_FUTURE_EPOCH,
+        "eip7807_fork_epoch": constants.FAR_FUTURE_EPOCH,
+        "eip7745_fork_epoch": constants.FAR_FUTURE_EPOCH,
         "network_sync_base_url": "https://snapshots.ethpandaops.io/",
         "force_snapshot_sync": False,
         "shadowfork_block_height": "latest",
