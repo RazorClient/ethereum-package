@@ -655,7 +655,7 @@ network_params:
 
   # The block height of the shadowfork
   # This is used to sync the network from a snapshot at a specific block height
-  # Defaults to "latest"
+  # Defaults to "latest"≠
   # Example: shadowfork_block_height: 340000 for hoodi
   shadowfork_block_height: "latest"
 
@@ -681,11 +681,14 @@ network_params:
 
   # EIP-7807 fork epoch
   # Defaults to 18446744073709551615
-  eip7807_fork_epoch: 18446744073709551615
+  # eip7807_fork_epoch: 18446744073709551615
+  # We will test out only 7799+7807 +7708
+  # would make sense to stip off into indiviual forks later
+  eip7919_fork_epoch: 18446744073709551615
 
   # EIP-7745 fork epoch
   # Defaults to 18446744073709551615
-  eip7745_fork_epoch: 18446744073709551615
+  # eip7745_fork_epoch: 18446744073709551615
 
   # Preset for the network
   # Default: "mainnet"
